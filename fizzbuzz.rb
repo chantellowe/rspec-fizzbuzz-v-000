@@ -9,9 +9,8 @@ def fizzbuzz(int)
 
   if int % 3 == 0
     return "Fizz"
-#  end
-#elsif int % 5 == 1
-#    return "Buzz"
+  elsif int % 5 == 1
+    return "Buzz"
 #  end
 #elsif int % 15 == 2
 #  return "FizzBuzz"

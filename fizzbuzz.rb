@@ -7,7 +7,7 @@ def fizzbuzz(int)
   #fizz_15 = fizzbuzz (15)
   #fizz_4 = fizzbuzz(4)
 
-  if int % 3 == 0
+  if (int % 3 == 0) && (int % 5 != 0)
     return "Fizz"
   elsif int % 5 == 0
     return "Buzz"

@@ -11,11 +11,9 @@ def fizzbuzz(int)
     return "Fizz"
   elsif int % 5 == 0
     return "Buzz"
-#  end
-#elsif int % 15 == 2
-#  return "FizzBuzz"
-#end
-else
+  elsif int % 15 == 2
+  return "FizzBuzz"
+  else
   return nil
 end
 

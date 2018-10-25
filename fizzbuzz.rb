@@ -16,7 +16,7 @@ def fizzbuzz(int)
 #  return "FizzBuzz"
 #end
 else
-  return false
+  return nil
 end
 
 
